@@ -6,7 +6,8 @@ I like to do something with my own hands applying my new knowledge.
 I believe that if you are doing something, then it must be well, or not do it.
 Very interesting js because this language can be used to solve easy and difficult tasks.
 4. I'm learning js, html, css. git Familiar with c and java.
-5. module.exports = function getZerosCount(number, base) {
+5. ```javascript
+  module.exports = function getZerosCount(number, base) {
   var prNum = [2], resultArr = [];
   next:// create an array of primes range from 0 to base
   for (var i = 2; i <= base; i++) {
@@ -35,6 +36,7 @@ Very interesting js because this language can be used to solve easy and difficul
   }
   return Math.min(...resultArr); // return min result from array
 }
+```
 6. I do not have experience.
 7. BNTU faculty Mechanics And Technology. 
 8. A2. I use the English language at work when I need to communicate with foreigners
