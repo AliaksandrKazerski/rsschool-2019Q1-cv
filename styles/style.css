@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Overpass-Regular;
+  src: url("../assets/fonts/Overpass-Regular.ttf");
+}
+body {
+  margin: 0px;
+}
+header {
+  width: 1024px;
+  margin: 0px auto;
+}
+main {
+  width: 1024px;
+  margin: 0px auto;
+}
+i {
+  font-size: 30px;
+}
+.head h2 {
+  text-align: center;
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  color: #6099D7;
+}
+.photo {
+  background: #6099D7;
+  background-image: url("../assets/img/background.jpg");
+  background-position: -71px -202px;
+  
+}
+.photo figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-fig {
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: #6099D7;
+}
+.photo figcaption {
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius:10px;
+  background: #6099D7;
+  color: #FFFFFF;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
+.wrapper-photo {
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.photo img {
+  position: relative;
+  left: -102px;
+}
+.photo h1 {
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0px;
+}
+.info {
+  padding: 0px;
+  list-style: none;
+  color: #6099D7;
+}
+.info li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.info li:nth-child(2n) {
+  background: #6099D7;
+  color:  #FFFFFF;
+}
+.info li:nth-child(2n) h2{
+  border-bottom: 3px solid #FFFFFF;
+}
+.wrapper-info {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+.wrapper-info h2 {
+  margin-left: 10px;
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-weight: normal;
+  border-bottom: 3px solid #6099D7;
+}
+.info p,
+.info address,
+.info pre {
+  width: 800px;
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+}
+.info p,
+.info address {
+  text-align: center;
+}
