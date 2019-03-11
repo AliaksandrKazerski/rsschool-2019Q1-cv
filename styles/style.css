@@ -20,6 +20,7 @@ i {
   text-align: center;
   font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
   font-weight: normal;
+  font-size: 35px;
   color: #6099D7;
 }
 .photo {
@@ -93,6 +94,9 @@ i {
   background: #6099D7;
   color:  #FFFFFF;
 }
+.info li:nth-child(2n) h2{
+  border-bottom: 3px solid #FFFFFF;
+}
 .wrapper-info {
   display: flex;
   align-items: center;
@@ -102,6 +106,7 @@ i {
   margin-left: 10px;
   font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
   font-weight: normal;
+  border-bottom: 3px solid #6099D7;
 }
 .info p,
 .info address,
