@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Overpass-Regular;
+  src: url("../assets/fonts/Overpass-Regular.ttf");
+}
 body {
   margin: 0px;
 }
@@ -14,13 +18,13 @@ i {
 }
 .head h2 {
   text-align: center;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
   font-weight: normal;
   color: #6099D7;
 }
 .photo {
   background: #6099D7;
-  background-image: url("../img/background.jpg");
+  background-image: url("../assets/img/background.jpg");
   background-position: -71px -202px;
   
 }
@@ -69,7 +73,7 @@ i {
   left: -102px;
 }
 .photo h1 {
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
   font-weight: normal;
   line-height: 30px;
   margin: 0px;
@@ -96,14 +100,14 @@ i {
 }
 .wrapper-info h2 {
   margin-left: 10px;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
   font-weight: normal;
 }
 .info p,
 .info address,
 .info pre {
   width: 800px;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family:'Overpass-Regular', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
 }
 .info p,
