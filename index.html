@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="head"><h2>My resume</h2></div>
+    </header>
+    <main>
+        <section class="photo">
+            <figure>
+                <div><img src="img/IMG_5274.JPG" alt="person" height="200" width="380"></div>
+                <figcaption><h1>Aliaksandr Kazerski</h1></figcaption>
+            </figure>
+        </section>
+        <section class="about">
+            <ul class="info">
+                <li>
+                  <div class="wrapper">
+                    <i class="material-icons">contacts</i>
+                    <h2>Contacts</h2>
+                  </div>
+                  <address>Minsk, Rokossovskogo avenue, h. 76, ap 55</address>
+                </li>
+                <li>
+                  <div class="wrapper">
+                    <i class="material-icons">comment</i>
+                    <h2>Summary</h2>
+                  </div>
+                  <p>I love learning to look for new information and solve problems. 
+                        I like to do something with my own hands applying my new knowledge.
+                        I believe that if you are doing something, then it must be well, or not do it.
+                        Very interesting js because this language can be used to solve easy and difficult tasks.</p>
+                </li>
+                <li>
+                  <div class="wrapper">
+                    <i class="material-icons">keyboard</i>
+                    <h2>Skills</h2>
+                  </div>
+                  <p>I'm learning js, html, css. git Familiar with c and java.</p></li>
+                <li>
+                  <div class="wrapper">
+                    <i class="material-icons">reorder</i>
+                    <h2>Example</h2>
+                  </div>
+                  <pre>
+                    <code>
+                      module.exports = function getZerosCount(number, base) {
+                        var prNum = [2], resultArr = [];
+                        next:// create an array of primes range from 0 to base
+                        for (var i = 2; i <= base; i++) {
+                          for (var j = 2; j < i; j++) {
+                            if (i % j === 0) {
+                              continue next;
+                            }
+                            if (i !== prNum[prNum.length - 1])
+                            prNum.push(i);
+                          } 
+                        }
+                        for (i = 0; i < prNum.length; i++) { // loop divides base into 
+                          //  prime numbers and divides number into this prime numbers
+                          if (base === 1) { 
+                            break;
+                          }
+                          var count = 0, result = 0, numLoop = number;
+                          while (base % prNum[i] === 0){ 
+                            count++; // save pow
+                            base /= prNum[i];
+                          }
+                          while (numLoop >= prNum[i]) {
+                            numLoop = Math.floor(numLoop / prNum[i]);
+                            result += numLoop;
+                          }
+                          resultArr.push(Math.floor(result / count));   //  pow needed 
+                          //  here and result push on array
+                        }
+                        return Math.min(...resultArr); // return min result from array
+                      }
+                    </code>
+                  </pre>
+                </li>
+                <li>
+                  <div class="wrapper">
+                    <i class="material-icons">work</i>
+                    <h2>Experience</h2>
+                  </div>
+                  <p>I do not have experience.</p>
+                </li>
+                <li>
+                  <div class="wrapper">
+                    <i class="material-icons">school</i>
+                    <h2>Education</h2>
+                  </div>
+                  <p>BNTU faculty Mechanics And Technology.</p>
+                </li>
+                <li>
+                  <div class="wrapper">
+                      <i class="material-icons">g_translate</i>
+                      <h2>English</h2>
+                  </div>
+                  <p>A2. I use the English language at work when I need to communicate with foreigners</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+  </body>
+</html>
